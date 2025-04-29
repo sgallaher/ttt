@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic-Tac-Toe</title>
+    <style>
+        body { text-align: center; font-family: sans-serif; }
+        #board { display: grid; grid-template-columns: repeat(3, 100px); width: 300px; margin: 20px auto; }
+        .cell { border: 1px solid #000; font-size: 48px; height: 100px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <p>Your symbol: <strong id="player"></strong></p>
+    <div id="board"></div>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>
+e 
